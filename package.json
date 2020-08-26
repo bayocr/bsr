@@ -1,0 +1,32 @@
+{
+  "name": "bsr",
+  "version": "0.1.0",
+  "description": "Only billing system",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayocr/bsr.git"
+  },
+  "keywords": [
+    "billing",
+    "rest",
+    "api"
+  ],
+  "author": "Dario Olazar <lernny@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayocr/bsr/issues"
+  },
+  "homepage": "https://github.com/bayocr/bsr#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  }
+}
